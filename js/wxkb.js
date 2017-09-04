@@ -19,6 +19,7 @@ function access_token() {
 		error : function(data) {
 			alert(data.errcode + data.errmsg);
 		}
+		
 	});
 }
 
